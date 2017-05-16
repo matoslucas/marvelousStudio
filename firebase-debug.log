@@ -1,0 +1,27 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\Lucas\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] CLI Version:  3.6.1
+[debug] Platform:     win32
+[debug] Node Version: v6.10.0
+[debug] Time:         Thu May 04 2017 00:02:06 GMT-0600 (Hora de verano de las Montañas)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/marvelousworkstudio  
+ Thu May 04 2017 00:02:06 GMT-0600 (Hora de verano de las Montañas)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/marvelousworkstudio/tokens  
+ Thu May 04 2017 00:02:06 GMT-0600 (Hora de verano de las Montañas)
+[debug] <<< HTTP RESPONSE 200
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: C:\Users\Lucas\Documents\portfolio\marvelous
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/marvelousworkstudio  
+ Thu May 04 2017 00:02:07 GMT-0600 (Hora de verano de las Montañas)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/59948860138/clients/_:getWebAppConfig  
+ Thu May 04 2017 00:02:07 GMT-0600 (Hora de verano de las Montañas)
+[debug] <<< HTTP RESPONSE 200
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5000

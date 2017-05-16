@@ -1,0 +1,37 @@
+
+
+<dom-module id="marvelous-badge">
+	<template>
+		<div style="display: flex; margin-top: 10px; margin-bottom: -25px;
+    justify-content: center;
+    align-items: center; ">
+		 <div style="display: flex; margin: 0px; /*transform: rotate(-15deg);*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 135px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border-color: #324a6e;
+    border-style: solid;
+    border-width: 3px;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);"
+			   >
+			  <div style="font-family: 'Swanky and Moo Moo', cursive; color: lightcoral; font-size: 32px;
+    line-height: 30px;">★</div>
+			  <div style="font-family: Pacifico; color: #017ac1; font-size: 26px;" 
+			  hidden$="{{!wideLayout}}" >Marvelous</div>
+			  <div style="font-family: 'Swanky and Moo Moo', cursive; color: #333; font-weight: bolder; font-size: 20px;">Work Studio</div>
+			  
+		  </div>
+		</div>
+	</template>
+	<script>
+		Polymer({
+			is: 'marvelous-badge'
+		});
+	</script>
+</dom-module>
